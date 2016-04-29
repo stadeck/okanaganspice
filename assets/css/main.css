@@ -1181,6 +1181,19 @@
 
 /* Lists */
 
+	.contactbox{
+		display: inline-block;
+		padding: 0em 1.25em;
+		list-style: none;
+		background: rgba(0, 0, 0, 0.03);
+		box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1), 1px 1px 0px 0px rgba(255, 255, 255, 0.3);
+		border-radius: 8px;
+		cursor: default;
+	}
+	.contactbox a{
+		padding:5px;
+	}
+	
 	ul.contact {
 		display: inline-block;
 		padding: 0em 1.25em;
@@ -1657,6 +1670,12 @@
 							color: #fff;
 						}
 
+						#nav > ul > li.activebox{
+							background: rgba(0, 0, 0, 0.5);
+							box-shadow: 0px 1px 0px 0px #363636;
+							color: #fff;
+						}
+						
 						#nav > ul > li:first-child {
 							margin-left: 0;
 						}
