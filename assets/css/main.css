@@ -1428,7 +1428,7 @@
 
 /* Main */
 
-	#main {
+	#main, #about {
 		background-color: #FFF;
 		background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 60%, #cbcbcb 100%);
 		background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 60%, #cbcbcb 100%);
@@ -1441,7 +1441,7 @@
 		box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
 	}
 
-		#main:before {
+		#main:before, #about:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -1700,11 +1700,11 @@
 
 		/* Main */
 
-			#main {
+			#main,#about {
 				padding: 4em 6em 5em 6em;
 			}
 
-			.homepage #main {
+			.homepage #main,.homepage #about {
 				padding: 1.5em 0 3em 0;
 			}
 
@@ -2153,11 +2153,11 @@
 
 		/* Main */
 
-			#main {
+			#main, #about {
 				padding: 20px 14px 14px 14px;
 			}
 
-			.homepage #main {
+			.homepage #main,.homepage #about {
 				padding: 10px 10px 20px 10px !important;
 			}
 
