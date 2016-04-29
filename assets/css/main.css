@@ -2291,4 +2291,6 @@
 	
 #about p{
 	text-align: left !important;
+    font-size: 95%;
+    font-weight: 400;	
 }
