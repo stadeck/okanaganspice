@@ -1,12 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900");
 @import url("font-awesome.min.css");
 
-/*
-	Folio by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1506,8 +1500,10 @@
 	#slider {
 		position: relative;
 		margin: 0 auto;
+/*
 		background: #2D2D2D;
 		border-radius: 8px;
+*/
 	}
 
 		#slider .viewer {
@@ -1573,8 +1569,10 @@
 			}
 
 				header h2 {
+/*
 					margin: 0 0 1em 0;
 					font-size: 2em;
+*/
 				}
 
 			.button {
@@ -1723,7 +1721,7 @@
 				padding: 4em 6em 5em 6em;
 			}
 
-			.homepage #main,.homepage #about {
+			.homepage #main{
 				padding: 1.5em 0 3em 0;
 			}
 
@@ -1748,20 +1746,21 @@
 					position: relative;
 					display: block;
 					width: 100%;
-					margin-top: -20px;
+					margin-top: 5px;
 					padding: 1.25em 1em 1.25em 1em;
-					border-radius: 8px;
+					border-radius: 0px;
 					border-top-left-radius: 0px;
 					border-top-right-radius: 0px;
 					line-height: 1.5em;
-					background: #111111;
+/*					background: #111111;*/
 					text-align: center;
 					opacity: 0.85;
 					font-weight: normal;
-					color: #ffffff;
+					color: #111111;
 					font-weight: 300;
 					z-index: 20;
-					
+					border-top: 1px solid;
+					border-bottom: 1px solid;					
 /*
 					position: absolute;
 					width: 100%;
@@ -1958,7 +1957,7 @@
 
 				header h2 {
 					margin: 0 0 0.70em 0;
-					font-size: 1.50em;
+					font-size: 0.75em;
 				}
 
 		/* Off-Canvas Navigation */
@@ -2176,7 +2175,7 @@
 				padding: 20px 14px 14px 14px;
 			}
 
-			.homepage #main,.homepage #about {
+			.homepage #main{
 				padding: 10px 10px 20px 10px !important;
 			}
 
@@ -2230,19 +2229,19 @@
 					position: relative;
 					display: block;
 					width: 100%;
-					margin-top: -25px;
+					margin-top: -15px;
 					padding: 1.25em 1em 1.25em 1em;
 					border-radius: 8px;
 					line-height: 1.5em;
-					background: #111111;
+/*					background: #111111;*/
 					text-align: center;
 					opacity: 0.85;
 					font-weight: normal;
-					color: #ffffff;
+					color: #111111;
 					font-weight: 300;
 					z-index: 20;
 				}
-
+/*
 					#slider .caption-line:before {
 						content: '';
 						position: absolute;
@@ -2253,7 +2252,7 @@
 						background-image: url("images/overlay.png");
 						box-shadow: inset 0px 0px 10px black;
 					}
-
+*/
 				#slider .indicator {
 					display: none;
 				}
