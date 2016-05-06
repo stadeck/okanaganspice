@@ -1752,15 +1752,15 @@
 					border-top-left-radius: 0px;
 					border-top-right-radius: 0px;
 					line-height: 1.5em;
-/*					background: #111111;*/
 					text-align: center;
 					opacity: 0.85;
 					font-weight: normal;
 					color: #111111;
 					font-weight: 300;
 					z-index: 20;
-					border-top: 1px solid;
-					border-bottom: 1px solid;					
+					background: rgba(0, 0, 0, 0.03);
+					box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1), 1px 1px 0px 0px rgba(255, 255, 255, 0.3);
+					border-radius: 8px;
 /*
 					position: absolute;
 					width: 100%;
