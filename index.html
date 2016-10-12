@@ -28,7 +28,7 @@
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="/#about">About</a></li>
 						<li class="activebox">
-							<a href="https://www.facebook.com/OkanaganValleySaltsandRubs/"><i class="fa fa-facebook"></i> OkanaganValleySaltsandRubs</a>
+							<a href="https://www.facebook.com/OkanaganValleySaltsandRubs/" class="fb"><i class="fa fa-facebook"></i></a>
 						</li>
 <!--
 						<li>
@@ -113,24 +113,33 @@
 						<p>Click below to contact us or visit us on our Facebook page!</p>
 						<p>We are currently available at GardenWorks Penticton, Hillside Winery, Penticton Whole Foods, Lang Vineyards, and Osooyos Home Hardware!</p>
 						<div class="actions">
-							<a href="#" class="button button-big">Get In Touch!</a>
+							<a onclick="$('.contactform').toggle();" class="button button-big">Get In Touch!</a>
 						</div>
 					</div>
 				</div>
 			</div>
-
+			<br />
+			<div id="about" class="container contactform" style="display:none;">
+				<div class="row">
+					<div id="content" class="12u" style="padding:10px;">
+						<iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://okanaganspicecompany.wufoo.com/embed/z1jam0if1hcm96m/?header=hide">
+						<a href="https://okanaganspicecompany.wufoo.com/forms/z1jam0if1hcm96m/">Fill out my Wufoo form!</a></iframe>
+						<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:none;">
+							<span class="notranslate">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</span>
+						</div>
+					</div>
+				</div>
 		</div>
 
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper" class="container">
-	
-			<!-- Footer -->
+<!--
 			<div id="footer">
 				<ul class="contact">
-					<li><a href="https://www.facebook.com/OkanaganValleySaltsandRubs/" class="fa fa-facebook"><span>Facebook</span> OkanaganValleySaltsandRubs</a></li>
+					<li><a href="https://www.facebook.com/OkanaganValleySaltsandRubs/" class="fa fa-facebook fb"><span>Facebook</span></a></li>
 				</ul>
 			</div>
-	
+-->
 			<!-- Copyright -->
 			<div id="copyright">
 				<span>&copy; Okanagan Valley <span>Salts and Rubs</span>. All rights reserved.</span>

@@ -1063,7 +1063,7 @@
 /* Basic */
 
 	body {
-		background: url("images/bg02.jpg");
+		background: url("images/bgg.jpg");
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
 		color: #2a2a2a;
@@ -1187,7 +1187,7 @@
 	.contactbox a{
 		padding:5px;
 	}
-	
+
 	ul.contact {
 		display: inline-block;
 		padding: 0em 1.25em;
@@ -1480,12 +1480,12 @@
 	#copyright {
 		position: relative;
 		text-align: center;
-		text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+		text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.9);
 	}
 
 		#copyright span {
 			color: #000;
-			opacity: .4;
+			opacity: .8;
 		}
 
 /* Portfolio */
@@ -1673,7 +1673,7 @@
 							box-shadow: 0px 1px 0px 0px #363636;
 							color: #fff;
 						}
-						
+
 						#nav > ul > li:first-child {
 							margin-left: 0;
 						}
@@ -2290,9 +2290,17 @@
 				}
 
 	}
-	
+
 #about p{
 	text-align: left !important;
     font-size: 95%;
-    font-weight: 400;	
+    font-weight: 400;
+}
+
+.fb{
+	font-weight: 400;
+	color: #3B5998 !important;
+	-webkit-text-fill-color: #3B5998; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #efefef;
 }
