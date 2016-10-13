@@ -2304,3 +2304,9 @@
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #efefef;
 }
+
+.fb-btn{
+	background: #3B5998 !important;
+	color: #fff;
+	box-shadow: inset 0px 0px 0px 1px #3B5998, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75), 0px 4px 0px 0px #3B5998;
+}
